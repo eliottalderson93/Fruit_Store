@@ -9,9 +9,9 @@ def index():
 def checkout():
     print(request.form)
     return render_template("checkout.html")
-
 @app.route('/fruits')         
 def fruits():
+
     return render_template("fruits.html")
 
 if __name__=="__main__":   
